@@ -18,6 +18,7 @@ PantryMS is a web-based system designed for efficiently managing food items, kee
 -   Execute the following SQL commands to create the necessary tables:
 
 ```CREATE TABLE IF NOT EXISTS products (
+  CREATE TABLE IF NOT EXISTS products (
   product_id INT PRIMARY KEY AUTO_INCREMENT,
   name VARCHAR(255) NOT NULL,
   category VARCHAR(50) DEFAULT NULL,

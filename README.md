@@ -2,6 +2,10 @@
 
 *This is the backend. The middleware for the frontend and database. To use PantryMS, please also install the PantryMS Frontend.*
 
+For a full PantryMS setup, ensure both the backend and frontend are configured correctly.
+Visit the [PantryMS-Frontend repository](https://github.com/wiesty/PantryMS-Frontend) for instructions on setting up the frontend.
+
+
 PantryMS is a web-based system designed for efficiently managing food items, keeping track of inventory, and providing notifications for low-stock or expiring products. The system allows for the organization of food items into different categories and integrates Discord webhooks for timely notifications.
 
 
@@ -103,11 +107,6 @@ PantryMS provides an easy deployment option using Docker. Follow these steps to 
     
     The application will be accessible at `http://localhost:3001/api/`.
     
-
-
-For a full PantryMS setup, ensure both the backend and frontend are configured correctly.
-
-Visit the [PantryMS-Frontend repository](https://github.com/wiesty/PantryMS-Frontend) for instructions on setting up the frontend.
 
 
 **Disclaimer:** Please note that PantryMS is a hobby project, and as such, I'm unable to provide extensive support. I appreciate your understanding and encourage you to explore and enjoy the system at your own pace. If you encounter any issues, feel free to reach out, and I'll do my best to assist when time permits.
